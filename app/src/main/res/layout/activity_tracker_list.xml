@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#f5f1ff">
+
+    <TextView
+        android:id="@+id/titleTrackers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mes Traqueurs"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:textColor="#4b0082"
+        android:layout_marginBottom="16dp" />
+
+    <ListView
+        android:id="@+id/listViewTrackers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

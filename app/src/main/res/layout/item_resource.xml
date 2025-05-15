@@ -1,0 +1,28 @@
+<!-- res/layout/item_resource.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    android:padding="16dp"
+    android:elevation="2dp"
+    android:layout_marginBottom="12dp">
+
+    <TextView
+        android:id="@+id/resourceTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nom de la ressource"
+        android:textStyle="bold"
+        android:textColor="#4b0082"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/resourceDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Description rapide"
+        android:textColor="#666"
+        android:textSize="14sp"
+        android:layout_marginTop="4dp" />
+</LinearLayout>
