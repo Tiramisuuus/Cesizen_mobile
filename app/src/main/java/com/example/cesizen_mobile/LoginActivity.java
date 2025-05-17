@@ -51,7 +51,7 @@ public class LoginActivity extends AppCompatActivity {
 
                         Intent intent = new Intent(LoginActivity.this, HomeActivity.class);
                         startActivity(intent);
-                        finish(); // 🔒 évite de revenir en arrière sur l'écran de login
+                        finish(); //  évite de revenir en arrière sur l'écran de login
 
                     } else {
                         Toast.makeText(getApplicationContext(), "Erreur d'identifiants", Toast.LENGTH_SHORT).show();

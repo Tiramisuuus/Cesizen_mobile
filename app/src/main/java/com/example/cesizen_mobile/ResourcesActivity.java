@@ -20,6 +20,7 @@ import retrofit2.Response;
 
 public class ResourcesActivity extends AppCompatActivity {
 
+
     private ListView listView;
     private RessourceAdapter adapter;
 

@@ -18,7 +18,7 @@ import retrofit2.Response;
 public class ProfileActivity extends AppCompatActivity {
 
     TextView textName, textEmail;
-    String token; // À récupérer depuis SharedPreferences ou un système maison
+    String token;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
